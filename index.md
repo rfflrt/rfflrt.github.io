@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Página Pessoal"
+title: ""
 ---
 
 <header>
@@ -17,8 +17,8 @@ title: "Página Pessoal"
 <main>
   <section id="sobre">
     <h2>Sobre</h2>
-    <p>Sou estudante de graduação (ingressante de 2024) do curso de Bacharelado em Ciência da Computação no Instituto de Matemática, Estatística e Ciências da Computação da Universidade de São Paulo (IME-USP).</p>
-    <p>Possuo interesses em interfaces cérebro-computador, computação quântica, aprendizado de máquina e inteligência artificial.</p>
+    <p>Estudante de graduação (ingressante de 2024) do curso de Bacharelado em Ciência da Computação no Instituto de Matemática, Estatística e Ciências da Computação da Universidade de São Paulo (IME-USP).</p>
+    <p>Possui interesses em interfaces cérebro-computador, computação quântica, aprendizado de máquina e inteligência artificial.</p>
   </section>
 
   <section id="interesses">
@@ -49,5 +49,5 @@ title: "Página Pessoal"
 </main>
 
 <footer>
-  <p>&copy; 2025 Raffael Raiél Trindade. Hospedado com GitHub Pages.</p>
+  <p>2025 Raffael Raiél Trindade. Hospedado com GitHub Pages.</p>
 </footer>
