@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"Binary and Multi-class Semantic Classification Using EEGNet"'
+title: 'Binary and Multi-class Semantic Classification Using EEGNet'
 date: 2026-01-15
 categories: research
 ---
