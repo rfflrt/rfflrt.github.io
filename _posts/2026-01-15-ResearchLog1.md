@@ -1,13 +1,14 @@
 ---
 layout: post
-title: 'Binary and Multi-class Semantic Classification Using EEGNet'
+title: Binary and Multi-class Semantic Classification Using EEGNet
 date: 2026-01-15
 categories: research
+math: "true"
 ---
 
 This post will summarize my findings while testing EEGNet's performance on binary and multiclass semantic classification of EEG data on a single subject of the THINGS-EEG dataset  preprocessed by Dr. Gifford.
 
-I implemented the EEGNet as described on the original paper (Lawhern et al.), using the recommended parameters of $F_1=4$, $D=2$ and dropout of $0.5$. I also added a pipeline for training and printing the results to make the notebooks cleaner.
+I implemented the EEGNet as described on the original paper (Lawhern et al.), using the recommended parameters of $$F_1=4$$, $$D=2$$ and dropout of $$0.5$$. I also added a pipeline for training and printing the results to make the notebooks cleaner.
 
 All code can be found at my GitHub (rfflrt) and was ran on a Nvidia RTX A5000.
 
