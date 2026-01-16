@@ -15,17 +15,17 @@ All code can be found at my GitHub (rfflrt) and was ran on a Nvidia RTX A5000.
 ## Binary Classification on Single-Subject Data
 In a binary dataset, the classes chosen to be discriminated alter greatly the accuracy achieved by EEGNet. As an example, given the classes "aircraft carrier" and "antelope" on sub-02:
 
-![Loss](assets/img/Pasted image 20260115110034.png)
+![Loss](assets/img/ResearchLog1/Pasted image 20260115110034.png)
 
 Achieving a accuracy of 0.85 on the best case.
 
 For the classes "balance beam" and "basson", the accuracy was of 0.925 on the best case.
 
-![Loss](assets/img/Pasted image 20260115110319.png)
+![Loss](assets/img/ResearchLog1/Pasted image 20260115110319.png)
 
 Although, for "aircraft carrier" and "ferry", the best case was 0.725.
 
-![Loss](assets/img/Pasted image 20260115110710.png)
+![Loss](assets/img/ResearchLog1/ResearchLog1/Pasted image 20260115110710.png)
 
 That way we may infer that semantically similar objects are more difficult to discriminate. Also, there may be ill-conditioning class separation, given that both aircraft carriers and ferries are waterborne vehicles.
 
@@ -71,24 +71,24 @@ For more precision and to avoid mixing the THINGS-EEG training and testing subda
 
 Using the data of sub-01 in a 3/4 separation of the data for train and 1/4 for test, the performance of the EEGNet on the first 5 classes of the A dataset was:
 
-![Loss](assets/img/Pasted image 20260115114014.png)
+![Loss](assets/img/ResearchLog1/Pasted image 20260115114014.png)
 
 We can see that the loss on the training and testing data was highly unstable and, considering their distance increasing also observed on the accuracy, we may infer that the model was already overfitting without even achieving good metrics.
 The accuracy on the best case was 0.4 and was constantly above 0.2, which indicates that it is better than a simple uniform distribution, but is still poor and unreliable.
 
-![Confusion Matrix](assets/img/Pasted image 20260115114025.png)
+![Confusion Matrix](assets/img/ResearchLog1/Pasted image 20260115114025.png)
 
 The confusion matrix makes it clear that the performance is not as good as we would like, since the main diagonal, though somewhat clear, not enough from the rest of the matrix.
 
 Using the B dataset with the same separation, we got the results:
 
-![Loss](assets/img/Pasted image 20260115115022.png)
+![Loss](assets/img/ResearchLog1/Pasted image 20260115115022.png)
 
 Now, we see that the loss in both the train and test data is more stable and descend without great differences in distance, starting to achieve a plateau. The same characteristics can be seen on the accuracy curve.
 Obtaining an accuracy of 0.55 on the best case, we observe an increase on the performance and reliability when using more data.
 
 It is good to also observe that the variability of the dataset also decreases, since the A dataset uses 10 different stimuli, while the B uses only 1. This may indicate that the increasing of quantitative and qualitative observations were due to this reducing of variance, what we will show in the future is not the case.
 
-![Confusion Matrix](assets/img/Pasted image 20260115115029.png)
+![Confusion Matrix](assets/img/ResearchLog1/Pasted image 20260115115029.png)
 
 We observe a better formation of the main diagonal, though still not very good, with a good discrimination of the "balance beam" class and poor discrimination of the "banana" and "aircraft carrier" classes, which the model, strangely, confuses itself with.
