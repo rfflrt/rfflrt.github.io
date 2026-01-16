@@ -25,7 +25,7 @@ For the classes "balance beam" and "basson", the accuracy was of 0.925 on the be
 
 Although, for "aircraft carrier" and "ferry", the best case was 0.725.
 
-![Loss](assets/img/ResearchLog1/ResearchLog1/Pasted image 20260115110710.png)
+![Loss](assets/img/ResearchLog1/Pasted image 20260115110710.png)
 
 That way we may infer that semantically similar objects are more difficult to discriminate. Also, there may be ill-conditioning class separation, given that both aircraft carriers and ferries are waterborne vehicles.
 
