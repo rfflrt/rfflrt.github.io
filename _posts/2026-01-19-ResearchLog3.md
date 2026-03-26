@@ -15,5 +15,5 @@ The approach described has nothing different from regular algorithms if run on t
 The signal matrix of a stimuli is given by $$M\in \mathbb{R}^{C\times T},$$
 where $C$ is the quantity of channels (brain electrodes) and $T$ are the quantity of time samples.<br>
 The covariance matrix of a signal is given by $$\mathcal{C}=MM^T,$$
-and, since $T>>C$ and the float representation of the potential at each electrode, it is very likely (sometimes called *empirically proved*) that the covariance matrices are **Simetric Positive Definite** (SPD, for short), living in the SPD ($\mathcal{S}_{++}^{\mathcal{C}}$) curved space.<br>
+and, since $T>>C$ and the float representation of the potential at each electrode, it is very likely (sometimes called *empirically proved*) that the covariance matrices are **Simetric Positive Definite** (SPD, for short), living in the SPD ($$\mathcal{S}_{++}^{\mathcal{C}}$$) curved space.<br>
 Since it is a curved space, it is true that given two SPD matrices $A, B \in \mathcal{S}_{++}^{n}$ and a scalar $a \in \mathbb{R}$ it is possible that $$A+B\notin \mathcal{S}_{++}^{n},$$ $$aA\notin \mathcal{S}_{++}^{n}.$$
