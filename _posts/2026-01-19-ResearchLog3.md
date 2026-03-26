@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Riemannian Geometry-Based Machine Learning on Multi-Class Multi-Subject Semantic Classification of THINGS-EEG
-date: 2025-02-20
+date: 2026-02-20
 categories: research
 math: "true"
 ---
